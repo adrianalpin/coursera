@@ -1,0 +1,129 @@
+﻿/*CSS made by Adrian J Alpin -- 10/7/2016 for TrialMenu*/
+
+h1 {
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    color: #fffce5;
+    background-color: #70635e;
+    font-size: 50px;
+    font-;
+}
+
+h2 {
+    font-family: Arial;
+    text-indent: 30px;
+    color: #fffce5;
+    text-align: center;
+    font-size: 30px;
+    width: 90%;
+}
+
+#bg {
+    background-color: #cccccc;
+    background-image: url("flower.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+#box {
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom:2px;
+    border: 1px solid maroon;
+    background-color: #bca687;
+    height: 200px;
+}
+
+.smallBoxC {
+    background-color: #70635e;
+    float: right;
+    width: 300px;
+    overflow: auto;
+}
+
+.smallBoxB {
+    background-color: #514f4d;
+    float: right;
+    width: 300px;
+    overflow: auto;
+}
+
+.smallBoxP {
+    background-color: #8c7454;
+    float: right;
+    width: 300px;
+    overflow: auto;
+}
+
+.textBox {
+    height: 100px;
+    clear: left;
+    background-color: #70635e;
+    overflow: auto;
+    border: 1px solid brown;
+    padding:2px;
+}
+
+
+body {
+    margin: 10;
+    padding: 10;
+    background: url("wood.jpg");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-right: auto;
+    margin-left: auto;
+    //background-color: rgb(255, 153, 0);
+    width: 90%;
+    color: #fffce5;
+    text-align: justify;
+    font-family: 'Californian FB', Arial;
+    font-size: 17px;
+    font-weight:200;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg {
+        float: left;
+    }
+
+    .col-lg {
+        width: 33%;
+    }
+}
+
+/* for tablet/ iPad screen */
+@media(min-width: 768px) and (max-width: 991px) {
+    .col-md1, .col-md2 {
+        float: left;
+    }
+
+    .col-md1 {
+        width: 49.7%;
+    }
+
+    .col-md2 {
+        width:99.7%;
+    }
+}
+/* for phone screen */
+@media(max-width: 767px) {
+    .col-sm {
+        float: left;
+        margin: 2px;
+    }
+
+    .col-sm {
+        width: 100%;
+    }
+}
