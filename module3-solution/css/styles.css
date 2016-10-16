@@ -1,0 +1,178 @@
+﻿body {
+    background: maroon;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+a:link, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.row {
+	width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#box {
+    margin:auto;
+    width:80%;
+    border: 1px solid white;
+    background-color: #f6b319;
+    height: auto;
+    overflow: auto;
+    padding:10px;
+}
+
+.smallBoxC {
+    background-color: #70635e;
+    float: left;
+    width: 300px;
+    overflow: auto;
+}
+
+h2 {
+text-align:center;
+font-weight:bold;
+color:white;
+}
+
+.textBox {
+    height: 100px;
+    clear: left;
+    background-color: #70635e;
+    overflow: auto;
+    border: 1px solid brown;
+    padding:2px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+    .navbar-brand h1 {
+        font-family: Arial;
+        color: white;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+        text-align: left;
+    }
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+    #nav-list a {
+        color: #951C49;
+        text-align: center;
+    }
+
+        #nav-list a:hover {
+            background: #E7E7E7;
+        }
+
+        #nav-list a span {
+            font-size: 1.8em;
+        }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -60px;
+}
+
+
+
+/*L Screen*/
+@media(min-width:1200px) {
+}
+
+/*M Screen*/
+@media(min-width:992px) and (max-width:1119px) {
+}
+/*S Screen*/
+@media(min-width:768px) and (max-width:991px) {
+
+    #box {
+    margin:auto;
+    width:80%;
+    border: 1px solid white;
+    background-color: #f6b319;
+    height: 1000px;
+    overflow: auto;
+    padding:10px;
+}
+}
+/*XS Screen*/
+@media(max-width:767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+        .navbar-brand h1 {
+            padding-top: 10px;
+            font-size: 5vw;
+        }
+
+    #collapsable-nav a {
+        font-size:1.2em;
+    }
+
+        #collapsable-nav a span {
+            font-size:1em;
+            margin-right:5px;
+        }
+
+            #box {
+    margin:auto;
+    width:80%;
+    border: 1px solid white;
+    background-color: #f6b319;
+    height: 1000px;
+    overflow: auto;
+    padding:10px;
+}
+}
+
+.panel-footer {
+    margin-top:30px;
+    padding-top:35px;
+    padding-bottom:30px;
+    background-color:#f6b319;
+    border-top:0;
+}
+
+    .panel-footer div.row {
+        margin-bottom:35px;
+    }
+
+#hours, #address {
+    line-height:2;
+}
+
+    #hours > span, # address > span {
+    font-size:1.3em;
+    }
+
+
